@@ -12,7 +12,6 @@ setup(
   keywords = ['FACE', 'RECOGNITION', 'PERSONALITIES'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'keras',
-          'pickle',
           'cv2',
           'numpy',
       ],

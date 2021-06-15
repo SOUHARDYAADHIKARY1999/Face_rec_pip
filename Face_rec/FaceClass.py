@@ -16,10 +16,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 
 
-face_detection_path= "face_detection_model/res10_300x300_ssd_iter_140000.caffemodel"
-proto_path = "face_detection_model/deploy.prototxt"
-model_path = 'pickle/holly_MobileNet_3(50_class).h5'
-label_path = 'pickle/holly_50_classes_lableencoder.pickle'
+face_detection_path= "Face_rec/face_detection_model/res10_300x300_ssd_iter_140000.caffemodel"
+proto_path = "Face_rec/face_detection_model/deploy.prototxt"
+model_path = 'Face_rec/pickle/holly_MobileNet_3(50_class).h5'
+label_path = 'Face_rec/pickle/holly_50_classes_lableencoder.pickle'
 
 
 
@@ -96,7 +96,7 @@ class FaceIndentity:
 reg = FaceIndentity(face_detection_path,proto_path,model_path,label_path)
 
 
-path='image/12.jpg'
+path='Face_rec/image/12.jpg'
 #image = cv2.imread(sys.argv[1])
 image=cv2.imread(path)
 reg.predict_image(image)

@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Face_rec',         # How you named your package folder (MyLib)
   packages = ['Face_rec'],   # Chose the same as "name"
-  version = '0.4',      # Start with a small number and increase it with every change you make
+  version = '0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python face recognition library',   # Give a short description about your library
   author = 'SOUHARDYA ADHIKARY',                   # Type in your name
@@ -14,6 +14,7 @@ setup(
           'keras',
           'opencv-python',
           'numpy',
+          'tensorflow',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package

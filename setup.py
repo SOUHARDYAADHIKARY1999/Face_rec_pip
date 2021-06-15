@@ -8,9 +8,9 @@ setup(
   author = 'SOUHARDYA ADHIKARY',                   # Type in your name
   author_email = 'souhardyaadhikary86942@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip/archive/refs/tags/v_2.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip/archive/refs/tags/v_3.0.tar.gz',    
   keywords = ['FACE', 'RECOGNITION', 'PERSONALITIES'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
+  install_requires=[            
           'keras',
           'cv2',
           'numpy',

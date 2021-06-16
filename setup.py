@@ -5,7 +5,7 @@ setup(
   packages =find_packages(), 
   #packages = ['Face_rec'],   # Chose the same as "name"
   include_package_data=True,
-  version = '0.11',      # Start with a small number and increase it with every change you make
+  version = '0.12',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python face recognition library',   # Give a short description about your library
   author = 'SOUHARDYA ADHIKARY',                   # Type in your name

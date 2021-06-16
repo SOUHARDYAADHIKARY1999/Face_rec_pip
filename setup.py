@@ -1,10 +1,11 @@
 #from distutils.core import setup
-from setuptools import setup,find_packages
+from setuptools import setup,find_packages,find_namespace_packages
 setup(
   name = 'Face_rec',         # How you named your package folder (MyLib)
   #packages = ['Face_rec'],   # Chose the same as "name"
-  packages=find_packages(exclude='image'),
-  version = '0.8',      # Start with a small number and increase it with every change you make
+  packages=find_namespace_packages(),
+  include_package_data=True,
+  version = '0.10',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python face recognition library',   # Give a short description about your library
   author = 'SOUHARDYA ADHIKARY',                   # Type in your name

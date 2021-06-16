@@ -5,13 +5,13 @@ setup(
   packages =find_packages(), 
   #packages = ['Face_rec'],   # Chose the same as "name"
   include_package_data=True,
-  version = '0.13',      # Start with a small number and increase it with every change you make
+  version = '0.14',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python face recognition library',   # Give a short description about your library
   author = 'SOUHARDYA ADHIKARY',                   # Type in your name
   author_email = 'souhardyaadhikary86942@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip/archive/refs/tags/v_0.12.tar.gz',    
+  download_url = 'https://github.com/SOUHARDYAADHIKARY1999/Face_rec_pip/archive/refs/tags/v_0.13.tar.gz',    
   keywords = ['FACE', 'RECOGNITION', 'PERSONALITIES'],   # Keywords that define your package best
   install_requires=[            
           'keras',

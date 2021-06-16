@@ -25,10 +25,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 class FaceIndentity:
 
-    face_detection_path= "caffemodel/res10_300x300_ssd_iter_140000.caffemodel"
-    proto_path = "face_detection_model/deploy.prototxt"
-    model_path = 'h5/holly_MobileNet_3(50_class).h5'
-    label_path = 'pickle/holly_50_classes_lableencoder.pickle'
+    dir_path=__file__[:-12]
+    face_detection_path= dir_path+"caffemodel/res10_300x300_ssd_iter_140000.caffemodel"
+    proto_path = dir_path+"face_detection_model/deploy.prototxt"
+    model_path = dir_path+'h5/holly_MobileNet_3(50_class).h5'
+    label_path = dir_path+'pickle/holly_50_classes_lableencoder.pickle'
 
     def __init__(self):
         

@@ -3,5 +3,3 @@ setup.cfg
 setup.py
 Face_rec\FaceClass.py
 Face_rec\__init__.py
-Face_rec\face_detection_model
-Face_rec\pickle
